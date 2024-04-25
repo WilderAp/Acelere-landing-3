@@ -1,0 +1,140 @@
+
+{
+    "section-one": {
+        "header": "",
+        "title": "COOL MIND",
+        "bloglink": "/#",
+        "navitems": "",
+        "item1": "Home",
+        "item2": "about",
+        "item3": "Services",
+        "item4": "Contact Us",
+        "button": "Book Appointment"
+        
+    }, 
+    "section-two": { 
+        "hero": "",
+        "title": "We help digital product evolve",
+        "body": "We're a branding and web design studio based in Portland, OR. We love playful type, bold colors and joyful experiences. ",
+        "button": "Get Offer",
+        "image": "../../public/hero.png"
+    },
+    "section-three": {
+        "expertise": "",
+        "title": "Special expertise from us",
+        "item1": {
+            "logo": "",
+            "title": "Website",
+            "body": "We partner with you to create custom websites that convert and leaves the user smiling."
+        },
+        "item2": {
+            "logo": "",
+            "title": "Marketing Strategic",
+            "body": "We partner with you to create custom websites that convert and leaves the user smiling."
+        },
+        "item3": {
+            "logo": "",
+            "title": "Mobile Apps",
+            "body": "We partner with you to create custom websites that convert and leaves the user smiling."
+        }
+    },
+    "section-four": {
+        "services": "",
+        "title": "Strategic design and engineering for global leading brands",
+        "body": "strategic design and engineering agency with an uncompromised commitment to quality and the generation of true value.",
+        "title2": "Optimaze design and engineering for global leading brands",
+        "body2": "strategic design and engineering agency with an uncompromised commitment to quality and the generation of true value."
+    },
+    "section-five": {
+        "about": "",
+        "title": "About Us",
+        "subtitle": "29 years of growth",
+        "body": "We are an independent IT consultancy, set up in 1991, operating across Europe with over 700 highly qualified people delivering for our clients every day. Since then, we have been working with clients from many sectors. Retail, engineering, pharmaceutical, real estate, transportation, utilities, financial, are some of them. We are Digital Transformation Specialists who strive to be a partner of choice.",
+        "body2": "",
+        "item1": {
+            "logo": "",
+            "title": "100+",
+            "body": "Skilled and motivated staff"
+        },
+        "item2": {
+            "logo": "",
+            "title": "80+",
+            "body": "Successful projects"
+        },
+        "item3": {
+            "logo": "",
+            "title": "28+",
+            "body": "Clients worldwide"
+        }
+    },
+    "section-six": {
+        "members": "",
+        "title": "Say hello to my  Great Team",
+        "body": [
+            {
+                "id": 1,
+                "picture": "../../public/member1.png",
+                "name": "David Aninowsky",
+                "role": "Ceo / Founder"
+            },
+            {
+                "id": 2,
+                "picture": "../../public/member2.png",
+                "name": "David Gucker",
+                "role": "Chief Operating Officer"
+            },
+            {
+                "id": 3,
+                "picture": "../../public/member3.png",
+                "name": "Anthony Quon",
+                "role": "Chief Information Officer"
+            }
+        ]
+    },
+    "section-seven": {
+        "footer": "",
+        "title": "COOL MIND",
+        "section-1": {
+            "delivery": "Warehouse Society, 234 Bahagia Ave Street PRBW 29281",
+            "email": "info@warehouse.project",
+            "phone": "1-232-3434 (Main)"
+        },
+        "section-2": {
+            "item1": "HOME",
+            "item2": "WORK",
+            "item3": "BLOG",
+            "item4": "ABOUT",
+            "item5": "SERVICES"
+        },
+        "section-3": {
+            "button1": {
+                "title": "Facebook",
+                "icon": ""
+            },
+            "button2": {
+                "title": "Twitter",
+                "icon": ""
+            },
+            "button3": {
+                "title": "Instagram",
+                "icon": ""
+            }
+        }
+    },
+    "section-eight": {
+        "projects": "",
+        "title": "Our Projects",
+        "body": [
+            {
+                "id": 1,
+                "picture": "../../public/coolmind.png",
+                "name": "COOL MIND",
+                "role": "Cool Mind / Project"
+            }
+            
+        ]
+    }
+        
+    
+
+}

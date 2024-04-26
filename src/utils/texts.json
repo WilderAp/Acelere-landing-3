@@ -17,7 +17,7 @@
         "title": "We help digital product evolve",
         "body": "We're a branding and web design studio based in Portland, OR. We love playful type, bold colors and joyful experiences. ",
         "button": "Get Offer",
-        "image": "../../public/hero.png"
+        "image": "https://res.cloudinary.com/db60chvpz/image/upload/v1714140733/zuurp7eifgk7k8ct4iml.png"
     },
     "section-three": {
         "expertise": "",
@@ -73,19 +73,19 @@
         "body": [
             {
                 "id": 1,
-                "picture": "../../public/member1.png",
+                "picture": "https://res.cloudinary.com/db60chvpz/image/upload/v1714140733/rmggbbxqzfjmdnhgpeep.png",
                 "name": "David Aninowsky",
                 "role": "Ceo / Founder"
             },
             {
                 "id": 2,
-                "picture": "../../public/member2.png",
+                "picture": "https://res.cloudinary.com/db60chvpz/image/upload/v1714140733/c1qobqw8dxrpf8smmckb.png",
                 "name": "David Gucker",
                 "role": "Chief Operating Officer"
             },
             {
                 "id": 3,
-                "picture": "../../public/member3.png",
+                "picture": "https://res.cloudinary.com/db60chvpz/image/upload/v1714140733/fb240rxk1zuwtphb3ibq.png",
                 "name": "Anthony Quon",
                 "role": "Chief Information Officer"
             }
@@ -127,7 +127,7 @@
         "body": [
             {
                 "id": 1,
-                "picture": "../../public/coolmind.png",
+                "picture": "https://res.cloudinary.com/db60chvpz/image/upload/v1714140671/yo83emrxmzlvuhedltul.png",
                 "name": "COOL MIND",
                 "role": "Cool Mind / Project"
             }

@@ -2,48 +2,58 @@
 {
     "section-one": {
         "header": "",
-        "title": "COOL MIND",
-        "bloglink": "/#",
         "navitems": "",
-        "item1": "Home",
-        "item2": "about",
-        "item3": "Services",
-        "item4": "Contact Us",
-        "button": "Book Appointment"
+        "title": "Border-IA",
+        "bloglink": "/#",
+        "item1": "Sobre",
+        "item2": "Recursos",
+        "item3": "Depoimentos",
+        "button": "COMUNIDADE"
         
     }, 
     "section-two": { 
         "hero": "",
-        "title": "We help digital product evolve",
-        "body": "We're a branding and web design studio based in Portland, OR. We love playful type, bold colors and joyful experiences. ",
-        "button": "Get Offer",
+        "title": "Acelere sua criação",
+        "title2": "de interfaces",
+        "body": "Com o Border-IA, você poderá dar vida às suas ideias em tempo recorde.  ",
+        "bread": "FIGMA PLUGIN",
+        "button": "USAR NO FIGMA",
         "image": "https://res.cloudinary.com/db60chvpz/image/upload/v1714140733/zuurp7eifgk7k8ct4iml.png"
     },
     "section-three": {
-        "expertise": "",
-        "title": "Special expertise from us",
-        "item1": {
-            "logo": "",
-            "title": "Website",
-            "body": "We partner with you to create custom websites that convert and leaves the user smiling."
-        },
-        "item2": {
-            "logo": "",
-            "title": "Marketing Strategic",
-            "body": "We partner with you to create custom websites that convert and leaves the user smiling."
-        },
-        "item3": {
-            "logo": "",
-            "title": "Mobile Apps",
-            "body": "We partner with you to create custom websites that convert and leaves the user smiling."
-        }
+        "interfaceImage": "",
+        "picture": "../../public/interface.png"
+        
     },
     "section-four": {
-        "services": "",
-        "title": "Strategic design and engineering for global leading brands",
-        "body": "strategic design and engineering agency with an uncompromised commitment to quality and the generation of true value.",
-        "title2": "Optimaze design and engineering for global leading brands",
-        "body2": "strategic design and engineering agency with an uncompromised commitment to quality and the generation of true value."
+        "recursos": "",
+        "breadcrum" : "RECURSOS",
+        "title": "Como o Border-IA te",
+        "title2": "ajuda no dia a dia",
+        "item1": {
+            "id":1,
+            "logo": "",
+            "title": "Removedor de fundo",
+            "description": "Torne o fundo transparente em qualquer foto."
+        },
+        "item2": {
+            "id":2,
+            "logo": "",
+            "title": "Gerador de texto",
+            "description": "Gere textos de espaço reservado para suas interfaces."
+        },
+        "item3": {
+            "id":3,
+            "logo": "",
+            "title": "Amplificador de imagem",
+            "description": "Amplie imagens e melhore sua resolução."
+        },
+        "item4": {
+            "id":4,
+            "logo": "",
+            "title": "Gerador de avatar",
+            "description": "Crie instantaneamente avatares de usuários."
+        }
     },
     "section-five": {
         "about": "",
@@ -93,15 +103,15 @@
     },
     "section-seven": {
         "footer": "",
-        "title": "COOL MIND",
+        "title": "Border-IA",
         "section-1": {
             "delivery": "Warehouse Society, 234 Bahagia Ave Street PRBW 29281",
             "email": "info@warehouse.project",
             "phone": "1-232-3434 (Main)"
         },
         "section-2": {
-            "item1": "HOME",
-            "item2": "WORK",
+            "item1": "Desenvolvido por: ",
+            "item2": "Jonas Milan & André Valentim",
             "item3": "BLOG",
             "item4": "ABOUT",
             "item5": "SERVICES"

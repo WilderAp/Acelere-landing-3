@@ -1,29 +1,30 @@
 import useNav from "../../hooks/useNav";
 import MenuMobile from "./MenuMobile";
 import texts from "../../utils/texts.json";
-import { PiCircleDashedBold } from "react-icons/pi";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
-import { BsJustify, BsXLg } from "react-icons/bs";
+import { BsXLg } from "react-icons/bs";
 import useMediaQuery from "../../hooks/useMediaQuery";
+import acelerate_logo from "../../../public/acelerate_logo.png";
+import "../../css/font.css";
 
 const Navbar = () => {
-  const { isOpen, handleIsOpen, hasScrolled } = useNav();
+  const { isOpen, handleIsOpen } = useNav();
   const isSmallScreen = useMediaQuery("(max-width: 640px)"); // Suponiendo 640px como el breakpoint para móviles
 
   return (
     <header
       className={`
         fixed z-[98] top-0 left-0 w-full 
-        px-10 flex justify-start gap-7 items-center  
-        h-[78px]  text-white 
+        px-20 flex justify-center gap-10 items-center  
+        h-[90px]  text-white 
       `}
-      style={{ backgroundColor: "#FAFAFA" }}
+      style={{ backgroundColor: "#09090B" }}
     >
       <div
         className="font-bold flex items-center gap-4"
-        style={{ color: "#272727" }}
+        style={{ color: "#FFFFFF", fontSize: "25px" }}
       >
-        <PiCircleDashedBold size={35} color="#3030FF" />
+        <img src={acelerate_logo} alt="logo" width={50} />
         {texts["section-one"].title}
       </div>
 
@@ -32,34 +33,61 @@ const Navbar = () => {
         <>
           <div>
             <a
+              href={texts["section-one"].item1}
+              className=""
+              style={{ color: "#A1A1AA" }}
+            >
+              {texts["section-one"].item1}
+            </a>
+          </div>
+          <div>
+            <a
+              href={texts["section-one"].item2}
+              className=""
+              style={{ color: "#A1A1AA" }}
+            >
+              {texts["section-one"].item2}
+            </a>
+          </div>
+          <div>
+            <a
+              href={texts["section-one"].item3}
+              className=""
+              style={{ color: "#A1A1AA" }}
+            >
+              {texts["section-one"].item3}
+            </a>
+          </div>
+          <div>
+            <a
               href={texts["section-one"].bloglink}
               target="_blank"
               rel="noopener noreferrer"
               className=""
-              style={{ color: "#272727" }}
+              style={{ color: "#A1A1AA" }}
             >
               Blog
             </a>
-          </div>
-          <div className="" style={{ color: "#272727" }}>
-            <select
-              style={{ backgroundColor: "#FAFAFA" }}
-              name="select1"
-              id="select1"
-            >
-              <option value="EN">EN</option>
-            </select>
           </div>
         </>
       )}
 
       {/* Renderizar botón de menú solo si la vista no es móvil */}
       {!isSmallScreen && (
-        <div className="ml-auto">
-          <button>
-            <HiOutlineMenuAlt4 size={35} color="#3030FF" />
-          </button>
-        </div>
+        <a
+          href="/"
+          style={{
+            border: "1px groove #3F3F46",
+            borderRadius: "4px",
+            padding: "12px 24px 12px 24px",
+            backgroundColor: "#27272A",
+            color: "#FFFFFF",
+            fontFamily: "Space",
+          }}
+          className="btn-sm text-gray-200  hover:bg-gray-800 ml-auto"
+        >
+          <span>{texts["section-one"].button}</span>
+        </a>
       )}
 
       {/* Renderizar botón de menú móvil */}

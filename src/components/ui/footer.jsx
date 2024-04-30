@@ -1,5 +1,5 @@
 import texts from "../../utils/texts.json";
-import { PiCircleDashedBold } from "react-icons/pi";
+import acelerate_logo from "../../../public/acelerate_logo.png";
 
 function Footer() {
   return (
@@ -10,102 +10,27 @@ function Footer() {
           {/* 1st block */}
           <div
             className="sm:col-span-2 md:col-span-3 lg:col-span-3 text-start ml-20"
-            style={{ borderRight: "1px solid #3030FF", maxWidth: "600px" }}
+            style={{ maxWidth: "600px" }}
           >
-            <h6
-              className="text-gray-800 font-medium mb-2 expressa flex gap-2 items-center"
-              style={{ fontSize: "25px" }}
+            <div
+              className="font-bold flex items-center gap-4"
+              style={{ color: "#FFFFFF", fontSize: "25px" }}
             >
-              <PiCircleDashedBold size={35} color="#3030FF" />
-              {texts["section-seven"].title}
-            </h6>
-            <ul className="text-sm">
-              <li className="mb-2">
-                <a
-                  href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  {texts["section-seven"]["section-1"].delivery}
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  {texts["section-seven"]["section-1"].email}
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  {texts["section-seven"]["section-1"].phone}
-                </a>
-              </li>
-            </ul>
+              <img src={acelerate_logo} alt="logo" width={50} />
+              {texts["section-one"].title}
+            </div>
           </div>
 
           {/* 2nd block */}
-          <div
-            className="sm:col-span-2 md:col-span-3 lg:col-span-2 text-center"
-            style={{ borderRight: "1px solid #3030FF" }}
-          >
-            <ul className="text-sm">
-              <li className="mb-3">
-                <a
-                  href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  {texts["section-seven"]["section-2"].item1}
-                </a>
-              </li>
-              <li className="mb-3">
-                <a
-                  href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  {texts["section-seven"]["section-2"].item2}
-                </a>
-              </li>
-              <li className="mb-3">
-                <a
-                  href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  {texts["section-seven"]["section-2"].item3}
-                </a>
-              </li>
-              <li className="mb-3">
-                <a
-                  href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  {texts["section-seven"]["section-2"].item4}
-                </a>
-              </li>
-              <li className="mb-3">
-                <a
-                  href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  {texts["section-seven"]["section-2"].item5}
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          {/* 3rd block */}
-          <div className="sm:col-span-2 md:col-span-3 lg:col-span-1 lg:flex-col flex sm:flex justify-center mx-w-auto gap-5">
+          <div className="sm:col-span-2 md:col-span-3 lg:col-span-1  flex  justify-center mx-w-auto gap-5">
             {/* <div className="sm:col-span-2 md:col-span-3 lg:col-span-1 mx-auto sm:flex sm:justify-center gap-5"> */}
             {/* Social as */}
             <div>
               <a
                 href="#0"
-                className="flex justify-center items-center  rounded-full shadow transition duration-150 ease-in-out"
+                className="flex justify-center items-center  border shadow transition duration-150 ease-in-out"
                 style={{
-                  backgroundColor: "#3030FF",
+                  backgroundColor: "#27272A",
                   color: "white",
                   maxWidth: "40px",
                 }}
@@ -123,9 +48,9 @@ function Footer() {
             <div className="">
               <a
                 href="#0"
-                className="flex justify-center items-center  rounded-full shadow transition duration-150 ease-in-out"
+                className="flex justify-center items-center border  shadow transition duration-150 ease-in-out"
                 style={{
-                  backgroundColor: "#3030FF",
+                  backgroundColor: "#27272A",
                   color: "white",
                   maxWidth: "40px",
                 }}
@@ -143,9 +68,9 @@ function Footer() {
             <div className="">
               <a
                 href="#0"
-                className="flex justify-center items-center  rounded-full shadow transition duration-150 ease-in-out"
+                className="flex justify-center items-center  border shadow transition duration-150 ease-in-out"
                 style={{
-                  backgroundColor: "#3030FF",
+                  backgroundColor: "#27272A",
                   color: "white",
                   maxWidth: "40px",
                 }}
@@ -160,6 +85,22 @@ function Footer() {
                 </svg>
               </a>
             </div>
+          </div>
+
+          {/* 3rd block */}
+          <div className="sm:col-span-2 md:col-span-3 lg:col-span-2 text-end">
+            <ul className="text-sm">
+              <li className="mb-3">
+                <span className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
+                  {texts["section-seven"]["section-2"].item1}
+                </span>
+              </li>
+              <li className="mb-3">
+                <span className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
+                  {texts["section-seven"]["section-2"].item2}
+                </span>
+              </li>
+            </ul>
           </div>
         </div>
 

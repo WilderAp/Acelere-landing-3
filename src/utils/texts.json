@@ -57,8 +57,9 @@
     },
     "section-five": {
         "about": "",
-        "title": "About Us",
-        "subtitle": "29 years of growth",
+        "title": "MAIS DE +5.000 DESIGNERS JÁ ESTÃO UTILIZADO",
+        "subtitle": "Concentre-se no design, não na rotina",
+        "breadcrum": "USAR NO FIGMA",
         "body": "We are an independent IT consultancy, set up in 1991, operating across Europe with over 700 highly qualified people delivering for our clients every day. Since then, we have been working with clients from many sectors. Retail, engineering, pharmaceutical, real estate, transportation, utilities, financial, are some of them. We are Digital Transformation Specialists who strive to be a partner of choice.",
         "body2": "",
         "item1": {
@@ -137,9 +138,9 @@
         "body": [
             {
                 "id": 1,
-                "picture": "https://res.cloudinary.com/db60chvpz/image/upload/v1714140671/yo83emrxmzlvuhedltul.png",
-                "name": "COOL MIND",
-                "role": "Cool Mind / Project"
+                "picture": "https://res.cloudinary.com/db60chvpz/image/upload/v1714510858/oljeuykijp9ev6hpmgi2.png",
+                "name": "Border-IA",
+                "role": "Border-IA / Project"
             }
             
         ]

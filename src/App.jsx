@@ -5,6 +5,7 @@ import Hero from "./components/hero";
 import Services from "./components/services";
 import Layout from "./components/ui/Layout";
 import Footer from "./components/ui/footer";
+import Projects from "./components/projects";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         <Hero />
         <Expertise />
         <Services />
-        {/* <About /> */}
+        <About />
+        <Projects />
       </Layout>
       <Footer />
     </main>

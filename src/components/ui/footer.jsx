@@ -88,15 +88,18 @@ function Footer() {
           </div>
 
           {/* 3rd block */}
-          <div className="sm:col-span-2 md:col-span-3 lg:col-span-2 text-end">
+          <div
+            className="sm:col-span-2 md:col-span-3 lg:col-span-2 lg:text-end sm: text-center"
+            style={{ color: "#A1A1AA" }}
+          >
             <ul className="text-sm">
               <li className="mb-3">
-                <span className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
+                <span className=" hover:text-gray-900 transition duration-150 ease-in-out">
                   {texts["section-seven"]["section-2"].item1}
                 </span>
               </li>
               <li className="mb-3">
-                <span className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
+                <span className=" hover:text-white transition duration-150 ease-in-out">
                   {texts["section-seven"]["section-2"].item2}
                 </span>
               </li>

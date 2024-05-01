@@ -5,8 +5,11 @@
         "navitems": "",
         "title": "Border-IA",
         "bloglink": "/#",
+        "link1": "/#sobre",
         "item1": "Sobre",
+        "link2": "/#recursos",
         "item2": "Recursos",
+        "link3": "/#depoimentos",
         "item3": "Depoimentos",
         "button": "COMUNIDADE"
         
@@ -22,7 +25,8 @@
     },
     "section-three": {
         "interfaceImage": "",
-        "picture": "https://res.cloudinary.com/db60chvpz/image/upload/v1714460202/jd3jl8wcm0a5mwrvrhdp.png"
+        "picture1": "https://res.cloudinary.com/db60chvpz/image/upload/v1714460202/jd3jl8wcm0a5mwrvrhdp.png",
+        "picture2": "https://res.cloudinary.com/db60chvpz/image/upload/v1714540694/opernqppin57raje8gsy.png"
         
     },
     "section-four": {

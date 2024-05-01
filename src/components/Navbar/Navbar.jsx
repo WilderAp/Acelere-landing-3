@@ -1,10 +1,11 @@
 import useNav from "../../hooks/useNav";
 import MenuMobile from "./MenuMobile";
 import texts from "../../utils/texts.json";
-import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import { BsXLg } from "react-icons/bs";
 import useMediaQuery from "../../hooks/useMediaQuery";
 import acelerate_logo from "../../../public/acelerate_logo.png";
+import { HiOutlineMenuAlt3 } from "react-icons/hi";
+
 import "../../css/font.css";
 
 const Navbar = () => {
@@ -18,14 +19,18 @@ const Navbar = () => {
         px-20 flex justify-center gap-10 items-center  
         h-[90px]  text-white 
       `}
-      style={{ backgroundColor: "#09090B" }}
+      style={{
+        backgroundColor: "#09090B",
+        justifyContent: isSmallScreen && "start",
+        paddingInline: isSmallScreen && "0px",
+      }}
     >
       <div
         className="font-bold flex items-center gap-4"
         style={{ color: "#FFFFFF", fontSize: "25px" }}
       >
         <img src={acelerate_logo} alt="logo" width={50} />
-        {texts["section-one"].title}
+        {!isSmallScreen && texts["section-one"].title}
       </div>
 
       {/* Renderizar elementos del menú solo si la vista no es móvil */}
@@ -33,7 +38,7 @@ const Navbar = () => {
         <>
           <div>
             <a
-              href={texts["section-one"].item1}
+              href={texts["section-one"].link1}
               className=""
               style={{ color: "#A1A1AA" }}
             >
@@ -42,7 +47,7 @@ const Navbar = () => {
           </div>
           <div>
             <a
-              href={texts["section-one"].item2}
+              href={texts["section-one"].link2}
               className=""
               style={{ color: "#A1A1AA" }}
             >
@@ -51,7 +56,7 @@ const Navbar = () => {
           </div>
           <div>
             <a
-              href={texts["section-one"].item3}
+              href={texts["section-one"].link3}
               className=""
               style={{ color: "#A1A1AA" }}
             >
@@ -72,30 +77,31 @@ const Navbar = () => {
         </>
       )}
 
-      {/* Renderizar botón de menú solo si la vista no es móvil */}
-      {!isSmallScreen && (
-        <a
-          href="/"
-          style={{
-            border: "1px groove #3F3F46",
-            borderRadius: "4px",
-            padding: "12px 24px 12px 24px",
-            backgroundColor: "#27272A",
-            color: "#FFFFFF",
-            fontFamily: "Space",
-          }}
-          className="btn-sm text-gray-200  hover:bg-gray-800 ml-auto"
-        >
-          <span>{texts["section-one"].button}</span>
-        </a>
-      )}
+      <a
+        href="/"
+        style={{
+          border: "1px groove #3F3F46",
+          borderRadius: "4px",
+          padding: "12px 24px 12px 24px",
+          backgroundColor: "#27272A",
+          color: "#FFFFFF",
+          fontFamily: "Space",
+        }}
+        className="btn-sm text-gray-200  hover:bg-gray-800 ml-auto"
+      >
+        <span>{texts["section-one"].button}</span>
+      </a>
 
       {/* Renderizar botón de menú móvil */}
       <button
-        className="text-2xl cursor-pointer z-[99] text-secondary flex items-center justify-center md:hidden ml-auto"
+        className="text-2xl cursor-pointer z-[90] text-secondary flex items-center justify-between md:hidden ml-auto"
         onClick={handleIsOpen}
       >
-        {isOpen ? <BsXLg color="black" /> : <HiOutlineMenuAlt4 color="black" />}
+        {isOpen ? (
+          <BsXLg color="white" />
+        ) : (
+          <HiOutlineMenuAlt3 color="white" size={40} />
+        )}
       </button>
       <MenuMobile isOpen={isOpen} onClick={handleIsOpen} />
     </header>

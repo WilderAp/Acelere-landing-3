@@ -12,11 +12,21 @@ function App() {
     <main>
       <Navbar />
       <Layout>
-        <Hero />
-        <Expertise />
-        <Services />
-        <About />
-        <Projects />
+        <section id="sobre">
+          <Hero />
+        </section>
+        <section>
+          <Expertise />
+        </section>
+        <section id="recursos">
+          <Services />
+        </section>
+        <section id="depoimentos">
+          <About />
+        </section>
+        <section>
+          <Projects />
+        </section>
       </Layout>
       <Footer />
     </main>
